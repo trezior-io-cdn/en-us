@@ -1,0 +1,427 @@
+body {
+    font-family: "Montserrat", serif;
+    background-color: #f6f6f6 !important;
+}
+
+:root {
+    --primary-color: #0f6148;
+}
+
+.bg-sec{
+    background-color: #0f6148;
+    border-radius: 20px;
+}
+
+/* Top Line */
+
+.top-line {
+    background-color: rgb(0, 133, 77);
+}
+
+.top-line p {
+    text-align: center;
+    color: #fff;
+    padding: 8px 20px;
+}
+
+.top-line p a {
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Navbar */
+
+.nav-box {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed !important;
+    top: 50px;
+    width: 92%;
+    z-index: 9999;
+}
+
+.nav-menu {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 100px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+}
+
+/* .nav-icon {
+    background-color: var(--primary-color);
+    padding: 20px 21px;
+    border-radius: 50%;
+    text-align: center;
+} */
+
+.nav-icon {
+    background-color: var(--primary-color);
+    padding: 20px 21px;
+    width: 15%;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.nav-icon a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.nav-logo img {
+    width: 100px;
+}
+
+.nav-icon svg {
+    width: 24px;
+    height: 24px;
+    color: #fff;
+}
+
+.nav-opts {
+    display: flex;
+}
+
+.nav-opts p {
+    margin: 0px 20px 0px 0px;
+    font-weight: 500;
+    color: #777;
+}
+
+.nav-opts p span {
+    background-color: #eee;
+    color: #777;
+    margin-left: 4px;
+}
+
+.nav-opts svg {
+    color: #777;
+}
+
+.country img {
+    width: 20px;
+}
+
+.currency {
+    border-right: 2px solid #ccc;
+    padding-right: 20px;
+}
+
+.nav-menu-opts a{
+    color: #777;
+    margin: 0px 15px;
+    text-decoration: none;
+}
+
+
+/* Banner */
+
+.banner {
+    height: 80vh;
+}
+
+.banner-cntnt h1 {
+    font-weight: 600;
+    
+    color: var(--primary-color);
+    font-size: 72px;
+}
+
+.banner-cntnt h1 span {
+    color: var(--primary-color);
+}
+
+.banner-cntnt p {
+    color: #111;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.btn-new {
+    background-color: var(--primary-color);
+    padding: 12px 25px;
+    display: inline-block;
+    color: #f6f6f6;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-right: 10px;
+    font-size: 17px;
+    transition: all .3s;
+}
+
+.btn-new:hover {
+    background-color:#032e21;
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+.btn-new-2 {
+    background-color: #ddd !important;
+    padding: 12px 25px;
+    display: inline-block;
+    color: #000 !important;
+    text-decoration: none !important;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-right: 20px;
+    font-size: 17px;
+    transition: all .3s;
+}
+
+.btn-new-2:hover {
+    background-color: #ccc !important;
+}
+
+.btn-text {
+    padding: 12px 0px;
+    display: inline-block;
+    color: #555 !important;
+    border-radius: 30px;
+    font-weight: 400;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.btn-text:hover {
+    text-decoration: none;
+}
+
+.banner-cntnt>span {
+    display: block;
+    padding-top: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.vh-75 {
+    height: 80vh;
+}
+
+.c-box {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 50px !important;
+}
+
+.heading h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.heading h2 {
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+}
+
+.heading h2:first-child {
+    border: none;
+}
+
+.heading p {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #171717;
+}
+
+.f-one svg {
+    color: #fff;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.f-one p {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.f-two h6 {
+    font-size: 16px;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.f-two a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.f-two a:hover {
+    color: #aaa;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social  a svg {
+    width: 24px;
+    color: #fff;
+}
+
+.social a {
+    color: unset;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.last-line {
+    background-color: #1f1f1f;
+    color: #aaa;
+}
+
+.last-line p {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.last-line a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.st-two h2 span {
+    display: block;
+}
+
+.ri {
+    display: none;
+}
+
+.gti {
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    
+    .heading h2 {
+        font-size: 32px;
+    }
+
+    .heading h2 span svg {
+        display: none;
+    }
+
+    .banner {
+        height: unset;
+    }
+
+    .banner-cntnt h1 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .banner-cntnt p {
+        font-size: 16px;
+    }
+
+    .banner-cntnt a {
+        display: block;
+        margin: 0px;
+    }
+
+    .top-line p {
+        font-size: 14px;
+    }
+
+    .c-box {
+        padding: 50px 30px !important;
+    }
+
+    .so {
+        padding: 20px;
+    }
+
+    .so-head p {
+        font-size: 18px;
+    }
+
+    .heading2 h2 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .st-one {
+        height: 300px;
+    }
+
+    .st-two h2 {
+        font-size: 28px;
+    }
+
+    .st-two h2 span {
+        display: unset;
+    }
+
+    .st-two ul {
+        margin-bottom: 20px;
+    }
+
+    .f-two {
+        margin-bottom: 50px;
+    }
+
+    .f-one {
+        margin-bottom: 50px;
+    }
+
+    .social a {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .last-line p {
+        margin-bottom: 20px;
+    }
+
+    .nav-menu-opts {
+        display: none;
+    }
+
+    .country, .currency {
+        display: none;
+    }
+
+    .gt {
+        display: none;
+    }
+
+    .gti {
+        display: block;
+    }
+
+    .ri {
+        display: block;
+    }
+
+    .nav-logo img {
+        width: 80px;
+    }
+
+    .nav-menu {
+        padding: 15px 15px;
+    }
+
+    .nav-icon {
+        padding: 15px 15px;
+    }
+
+}
